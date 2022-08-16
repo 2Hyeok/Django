@@ -16,11 +16,11 @@
 
 download → windows
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d68291a-b3c3-4a00-a2ee-327a318a8d18/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184868503-1a646795-0f6f-497d-8101-04a2fce05ad9.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8f43c04a-3c9e-409f-b083-eb5a604541eb/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184868546-d7650a25-0087-4412-a7f7-440781797cbf.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aa0e7ee5-cce7-467e-8e1c-b0b729ca3dc7/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184868649-fcdfb667-fcac-437a-bdae-f32a8cc96309.png)
 
 Add Python 3.8 to PATH 꼭체크 해줄것
 
@@ -28,23 +28,23 @@ Add Python 3.8 to PATH 꼭체크 해줄것
 
 install 클릭
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/165f9ced-4d21-4d7b-983c-c3ed32a7e502/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184868698-52fb9407-1aa3-48ab-b43f-05f64d319433.png)
 
 설치 완료후 close
 
 파이썬 경로 확인
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12a216b8-967f-43e7-9f38-7b0af1e5fe2f/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184868730-b887e196-8af9-4451-adde-32b88f2f095a.png)
 
 cmd → ptyhon - -version → 파이썬 설치 확인
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5c1107db-81f0-42be-a745-417c6b746812/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184868763-fa649f5b-03d3-426d-a0f8-2b5f9a49d255.png)
 
 cmd 창에서 python 코딩 가능
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2213386c-92b1-4034-a22a-eb58bdd217bd/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184868798-0031a6be-a275-48b0-b32b-90497b9cc6b1.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/450378ce-0298-452e-8eb9-908a642aa801/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184868822-add3aa63-745d-46e8-86c9-d417c9252d29.png)
 
 exit()로 나가기
 
@@ -56,25 +56,25 @@ PyDev 설치
 
 [https://sourceforge.net/projects/pydev/?source=typ_redirect](https://sourceforge.net/projects/pydev/?source=typ_redirect)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f1940f3-f5f7-4473-b0dc-ccfc5ab4a085/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184868917-6c0b58d6-6f29-4aee-8f1d-eb3c66223069.png)
 
 pydev 클릭
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/815f0a5c-3771-4eea-a9ea-30bd028da43e/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184868957-011fc8a8-d801-4d62-bf87-8dee8f9fcc93.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b2276b82-7c36-4cb0-bf49-36f5f471654d/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184868983-ead125d2-86c5-4fea-b751-c7ec0d7d1555.png)
 
 이클립스도 다시 설치 해주어야함 → 버젼 문제로 적용이 안됨
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e19dd8b3-bf3b-4c3e-8a07-676eaed61a0a/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184869563-1aa17977-a630-478d-b44f-c892402d04f6.png)
 
 pydev도 9.3 으로 풀어줌
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5b6725b4-197c-4dd7-bdaf-a4ec069b3475/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184869632-2b9c5f7e-745d-43ee-ac03-b013e51b85ab.png)
 
 압축을 푼 후에 덮어쓰기를 해줌
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7835bff6-5d31-4f18-be95-bb5c015a16ae/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184869618-00afb580-6bcf-4b18-9f92-6f93e51c141a.png)
 
 파이썬 적용 완료
 
@@ -82,13 +82,13 @@ pydev도 9.3 으로 풀어줌
 
 windows → preferences → PyDev  → interpreters → Python interpreters
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/51895484-a5b2-405f-989c-b1fbf4db356d/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184869681-4b951031-a7a5-4b3c-9c3e-899022b2fbc8.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/496bdfe9-6a7a-4821-a2f6-bd2cde068957/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184869710-c2bf0113-0ffa-4365-8c9d-30152ce88808.png)
 
 파이썬 패스의 맨 위의 패스를 쓸것이다 라는 뜻
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f676a36b-dfea-4265-85b9-0889797af3c5/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184869734-9cc03a19-e8a2-4304-a73e-1e2bfa056e0b.png)
 
 이후 프로젝트 생성후 실행하면 잘 작동함
 
@@ -98,13 +98,13 @@ windows → preferences → PyDev  → interpreters → Python interpreters
 
 file → other → pydev → ptdev project
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/82edff19-f86a-4460-8d05-f1296830f4bc/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184869760-3782396c-9e47-4e29-b5fa-c9482c15eed1.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/368c81c4-c5e0-46b0-b50d-f893ebed73f3/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184869784-126c5d13-92f1-42d4-ad9f-738c50888ed1.png)
 
 이상태로 생성
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/59abd7ea-480a-44da-84de-b180e8bcd8a4/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184869811-d473bff8-4c33-4dc9-bde2-1d9fb8c49606.png)
 
 기존프로젝트와 연결 할 것이냐 라는 뜻
 
@@ -126,17 +126,17 @@ file → other → pydev → ptdev project
 
 PythonEx → 우클릭 → PyDev Package
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0c4eea37-7c20-4b3b-a9f6-bef8283471d2/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184869859-dd60d8dd-7d96-4a0d-9d83-0bef0129dba3.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/df782de7-d3b2-4549-9b3a-286c888caae7/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184869886-21d99d93-bf2d-4342-bc39-d26b9d829f69.png)
 
 simple → 우클릭 → PyDev Module
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fd1afc11-94e2-4cc5-9f71-e0d888b03770/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184869904-0de11128-bfff-4692-b003-8bc36db29cec.png)
 
 empty
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/493b513f-7a9b-4c72-8e01-2f3a35c88025/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184869925-bdb98892-49cb-4191-a910-1b32e73758be.png)
 
 - 클래스 이름은 첫 글자는 대문자로 만들어야한다!!
 - 이넡프리터 언어이기에 특징이 다른것이 있음
@@ -159,11 +159,11 @@ print(a)
 
 ctrl + f11
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0e88cca-76c8-47d9-97ec-1b9c63c4fba7/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184869969-01d5ad3f-e1d9-410c-9038-735edce25a1d.png)
 
 한번은 이렇게 실행 해주어야함
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/80b57fb2-9257-4fb3-8f25-a932973b4bb8/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184869988-b28d8aa3-9cf3-482b-80be-d40bee64d6ba.png)
 
 but 한줄로 코딩할 때에만 세미콜론을 찍어주어야함
 
@@ -171,7 +171,7 @@ but 한줄로 코딩할 때에만 세미콜론을 찍어주어야함
 a=10; print(a)
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f14d04fc-6bda-4dbd-b281-800c16604664/Untitled.png)
+![image](https://user-images.githubusercontent.com/87698248/184870018-c8355df0-e6f5-4831-9b78-1ba5d5ab7289.png)
 
 이상없이 잘 나옴
 
@@ -180,13 +180,3 @@ a=10; print(a)
 탭을 누르게 되면 하위 영역이기에 잘 해주어야함
 
 영역표시가 없어 들여쓰기 잘못하면 큰일남!
-
-[Python 기본](https://www.notion.so/Python-98f6e6bf3ff54b55b29488e4b4abc370)
-
-[Python 자료형](https://www.notion.so/Python-16168a768e8149ec91f11cc2bfa574b3)
-
-[Python 열거형 나열형](https://www.notion.so/Python-51b2c0a97c6d4884a52da2eb3d5dc373)
-
-[Python Mappings](https://www.notion.so/Python-Mappings-ae3c3a751cf7435a8507c98941a54bab)
-
-[Python 함수, 클래스, 모듈](https://www.notion.so/Python-2586ca9809494471a0912f4633fe7582)
