@@ -436,3 +436,27 @@ p = re.compile( "^python\s\w+" )
 print( p.findall( s ) )
 p = re.compile( "^python\s\w+", re.MULTILINE )  # re.M, 멀티라인이면 각각 다른문장으로 인식을함
 print( p.findall( s ) )
+
+#------------------------------------------------------------------------------------
+
+# 이메일 유효성 검사
+emails = """
+aaa@aaa.com
+aaa@a.com
+AAA@AAA.com
+1aa@1aa.com
+&&&@&&&.com
+aaa@@a.com
+@aaa.com
+aaa@aaa@aaa.com
+aaaaaaaaaaaaaaaaaaaaa@a.com
+aa1@aaa.com
+aaa@aaa.7com
+aaa@aaa.co.kr
+"""
+# 처음과 끝을 정해주어야함, 각각의 줄마다 다른것으로 인식해라, 첫글자는 문자, 두번째부터는 문자 or 숫자를 15까지 반복함, @ , 회사의 이름은 2글자 이상이기에 2, 라고만 표기, .은 문자이기에  \ 사용
+p = re.compile("^[a-z][a-z0-9]{2,15}@[a-z0-9]{2,}\.[a-z]{2,}$", re.M) # co.kr은 따로 걸러야함
+print(p.findall(emails))
+
+p = re.compile("^[a-z][a-z0-9]{2,15}@[a-z0-9]{2,}\.[a-z]{2,}\.[a-z]{2,}$",re.M) # co.kr 골라내는 방법
+print(p.findall(emails))
