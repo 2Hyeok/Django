@@ -216,3 +216,101 @@ for item in items :
     # print(item)
     print(item.dong.string, item.month.string, "-", item.day.string, item.apartname.string, item.price.string)
     print()
+    
+#-----------------------------------------------------------------------------------------------------------------
+
+
+# JSON 방식 분석(크롤링)
+# JSON 데이터는 깃허브에서 분석용 자료 다운
+# https://api.github.com/repositories
+
+# import json # json 임포트 필요
+# import os.path
+# url = "https://api.github.com/repositories" # 깃허브 레퍼지토리 위치
+# filename = "github.txt" # 파일의 이름
+#
+# if not os.path.exists(filename) :
+#     req.urlretrieve(url, filename) # 파일로 저장
+#
+# # 읽을때는 json으로 읽어야함
+# items = json.load(open(filename, "rt", encoding="utf-8")) # 파일을 열것, 텍스트파일을, utf-8방식으로
+# # { {, , , , } } 이런방식의 txt문서임, json 이 알아서 잘라줌
+# for item in items :
+#     print(item["id"], item["name"], item["owner"]["login"]) # 키를 주어 꺼내면됨, json이 두개 묶여있을때 꺼내는 방법 item["owner"]["login"]
+
+#---------------------------------------------------------------------------------------------------------------------------
+
+# # CSV 데이터 분석
+# import csv, codecs # 원래는 codes가 아닌 pandas를 이용해야하지만, 아직 배우지 않음
+# filename = "test.csv" # 파일 이름 설정
+# write = codecs.open(filename, "w", encoding="utf-8") # 파일 을 쓴다
+# writer = csv.writer(write, delimiter=",") # delimiter는 구분자 라는뜻
+# writer.writerow(["아이디","이름","가격"]) # 띄어쓰기 금지
+# writer.writerow(["1000","HDD",200000])
+# writer.writerow(["1001","SSD",300000])
+# writer.writerow(["1002","Moniter",150000])
+# writer.writerow(["1003","Mouse",20000])
+# writer.writerow(["1004","Keyboard",30000]) # 그냥 잘랐기에 빈 인덱스가 들어감
+# print("파일생성 완료")
+#
+# write.close() # 파일을 열어서 작성했기에 닫아주어야함
+#
+# readcsv = codecs.open(filename, "r", encoding="utf-8").read() # 열어서 바로 읽음
+# # 콤마로 나누어져 있어서 잘라야함, pandas는 알아서 잘라줌
+# data = []
+# rows = readcsv.split("\r\n")
+# # print(rows)
+# for row in rows :
+#     if row == "": # 빈문자열 일경우
+#         break   # 멈춰라
+#     cells = row.split(",") # 1차원 리스트
+#     data.append(cells) # 2차원 리스트로 만들어줌
+#
+# for d in data :
+#     print(d[0] + "\t" + d[1] + "\t" + d[2]) # 인덱스가
+
+#---------------------------------------------------------------------------------------------------------------------------
+
+# EXCEL 데이터 분석
+# 라이브러리가 있어야함
+# pip install openpyxl
+import openpyxl
+filename = "stat_100701.xlsx"
+wb = openpyxl.load_workbook(filename) # 워크북으로 만듬
+# ws = wb.worksheets[0] # 시트가 1번이면 1번, 2번이면 2번
+ws = wb.active # 현제 열려있는 엑셀 페이지 ( 하나만 있을시 가능할듯 )
+# for row in ws.rows : # 줄마다 데이터가 있기에 2중 for문 이용
+#     for data in row :
+#         if data.value == None : # 데이터의 값이 none 일경우 해당값을 출력값을 빈칸으로 두기
+#             print("", end="\t")
+#         else : # 아닐경우 출력
+#             print(data.value, end="\t") # cell이 나옴, 그러기에 value를 붙임
+#     print()
+
+# 2차원 리스트로 만들기
+# 9번과 10번만 출력
+data = []
+# 몇개만 빼서 할것
+for row in ws.rows :
+    if row[9] != None and row[10] != None :
+        data.append([row[9].value, row[10].value])
+del(data[0:4]) # 0 ~ 4까지 지움
+
+# sort 해줄것
+# 데이터가 달라 어떤데이터로 정렬할것인지 정해야함
+
+data = sorted(data, key = lambda x : x[1], reverse=True) # 리턴함, 왼쪽것인지 오른쪽것인지 정렬을 정해줌, 기준이 되는 함수를 정해줌, 람다로 정해줌, x의 1번을 기준으로 정렬을한다 라는뜻
+# 기본적으로 오름차순 정렬임, 내림차순이면 reverse 를 써줌
+# 정렬이 이상함, 문자열로 인식을해 9가 제일 커서 90이 맨 위로옴
+for d in data :
+    print(d)
+    
+# 다시 파일로 저장을해줌
+savefile="population.xlsx"
+swb = openpyxl.Workbook() # 클래스 생성
+sws = swb.active # 활성화 시켜줌
+# sws = swb.create_sheet(title="인구") # 새로운 워크시트가 만들어짐, 주석, 기존시트에 만들것이기 떄문
+for i, d in enumerate(data) : # 엑셀의 위치때문에 인덱스가 필요함
+    sws.cell(row=i+1, column=1, value=d[0]) # 몇번째 행의 몇번째 열인지, 행열을 잡아줌, 단 엑셀은 행이 1번부터 있음 0번이 아님, 그래서 1을 더해줌
+    sws.cell(row=i+1, column=2, value=d[1])
+swb.save(savefile)
