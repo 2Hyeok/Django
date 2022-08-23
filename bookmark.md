@@ -5,7 +5,7 @@
     
     ![image](https://user-images.githubusercontent.com/87698248/186077392-8ae7eaa1-12e6-4401-a043-b818dbc12816.png)
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/22205636-3bb6-4c09-b6fa-fe953ca046da/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/87698248/186077600-c8698db7-d3cc-474b-9703-bb524ed0a278.png)
     
     생성 완료
     
@@ -61,7 +61,7 @@ views → 흐름제어
 
 - 한국어 변경 확인
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/83a2e8c3-3cb8-441a-8479-2888532fd0a8/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/87698248/186077618-592b278f-e1b0-4ec7-82d0-31e720ea40c2.png)
     
 
 
@@ -87,13 +87,13 @@ views → 흐름제어
             return self.title
     ```
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e9d59048-a1ec-40a5-9b4f-0b59bd177358/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/87698248/186077645-0f2d1fdb-05c5-4723-b7ae-b7c22dbcb1cd.png)
     
 - cmd ->python [manage.py](http://manage.py/) makemigrations
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2c9fbcc8-006e-41d2-a95c-33909137d6ef/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/87698248/186077663-abe9e0c5-ac3f-4151-950f-96586b71d927.png)
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bd6ab619-a874-4f32-bf0a-6d36b1f93e38/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/87698248/186077684-3d0d1340-b325-44a7-8313-b844dc15a729.png)
     
     아이디가 생성됨
     
@@ -103,7 +103,7 @@ views → 흐름제어
     
     - 다시 cmd → python [manage.py](http://manage.py/) migrate
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f5a764d7-63c2-41a3-9842-743536e1eaab/Untitled.png)
+        ![image](https://user-images.githubusercontent.com/87698248/186077707-3eeec487-fd2c-4d14-b60b-f1ce902745b5.png)
         
     
     변경사항이 있기에 이런식으로 실행해 주어야 저장이됨
@@ -129,13 +129,13 @@ views → 흐름제어
     
     페이지 다시 시작
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/24af7ed0-fa7d-4f83-9c5a-a1b1540abde7/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/87698248/186077739-e3cf131a-b69e-4678-9b61-d7c92f588b9a.png)
     
     북마크 추가하기
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/003b80b4-4a6e-461f-98ce-b2618b7aa1cf/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/87698248/186077751-3308dc50-8d82-4c70-9005-960a52d2dcd0.png)
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/63cb9fdd-9dfc-49e3-8fdc-eb757b8e33c1/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/87698248/186077773-4417979c-1e3e-486f-9fe3-ab5535be460b.png)
     
 
 ---
