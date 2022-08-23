@@ -4,7 +4,7 @@
 
 - cmd → python [manage.py](http://manage.py/) startapp bookmark
     
-   ![image](https://user-images.githubusercontent.com/87698248/186077392-8ae7eaa1-12e6-4401-a043-b818dbc12816.png)
+    ![image](https://user-images.githubusercontent.com/87698248/186077392-8ae7eaa1-12e6-4401-a043-b818dbc12816.png)
     
     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/22205636-3bb6-4c09-b6fa-fe953ca046da/Untitled.png)
     
