@@ -1,4 +1,3 @@
----
 
 ### 어플리케이션 생성
 
@@ -56,7 +55,7 @@ views → 흐름제어
         }
     }
     ```
-    
+  
 
 새팅이 바뀌었기에 서버를 재시작 해주어야함
 
@@ -65,7 +64,6 @@ views → 흐름제어
     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/83a2e8c3-3cb8-441a-8479-2888532fd0a8/Untitled.png)
     
 
----
 
 ### 디비생성
 
